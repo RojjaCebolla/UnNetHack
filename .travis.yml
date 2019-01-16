@@ -6,17 +6,4 @@ compiler:
   - gcc
   - clang
 
-addons:
-  apt:
-    packages:
-      - check
-
 sudo: false
-
-notifications:
-  irc:
-    channels: "chat.freenode.net#unnethack"
-    use_notice: true
-    skip_join: true
-  email:
-    on_success: always
